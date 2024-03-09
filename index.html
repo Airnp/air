@@ -4,14 +4,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <title>我的网站</title> 
   <link rel="stylesheet" href="aq1.css"> 
-  <script src="js/jq.js"></script> 
+  <script src="https://cdn.bootcss.com/vConsole/3.3.4/vconsole.min.js"></script>
+  <script>
+     var vConsole = new VConsole();
+     console.log('你来干什么');
+   </script>
  </head> 
  <body id="v1"> 
   <button id="v2" class="my-button" onclick="air.showModal()">弹窗</button> 
   <dialog id="air"> 
    <div id="v3" class="win"> 
     <p id="v4">你好呀</p> 
-    <p id="v5">春节快乐QWQ</p> 
+    <p id="v5"></p> 
     <input id="air1" type="text class=" my-input"=""> 
     <p id="v6"> <button id="air2" class="my-button" onclick="air.close();location.href='aq2.html'">确定</button> <button id="air3" class="my-button" onclick="location.href='404.html'">关闭</button> </p> 
    </div> 
